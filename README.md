@@ -31,5 +31,24 @@ Our example for this chapter will be a simple unstyled HTML document. Create a n
   &lt/body&gt<br>
 &lt/html&gt<br>
 </code>  
+<!-->
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>Semantic HTML</title>
+  </head>
+  <body>
+
+    <h1>Interneting Is Easy!</h1>
+    <ul>
+      <li><a href='#'>Home</a></li>
+      <li><a href='#'>About</a></li>
+      <li><a href='#'>Blog</a></li>
+      <li><a href='#'>Sign Up</a></li>
+    </ul>
+
+  </body>
+</html>
     
 That h1 and ul are presumably the top-level banner for our website—not the main content of the web page. We’ve never had to make this distinction before, but that’s what this whole chapter is about.
