@@ -47,7 +47,6 @@ called <code>semantic-html</code> with a new file in it called
     <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Semantic HTML<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
-
     <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Interneting Is Easy!<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">'#'</span>&gt;</span>Home<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
@@ -799,92 +798,4 @@ websites (especially e-commerce ones): forms.</p>
 
 
 <div class="chapter-sidebar"><div class="sidebar js-sidebar"><div class="sidebar__wrapper"><ul class="sidebar__list"><li class="sidebar__list-item"><a class="sidebar__link" href="#setup">Setup</a> </li><li class="sidebar__list-item"><a class="sidebar__link" href="#the-document-outline">The Document Outline</a> </li><li class="sidebar__list-item"><a class="sidebar__link" href="#articles">Articles</a> </li><li class="sidebar__list-item"><a class="sidebar__link" href="#sections">Sections</a> </li><li class="sidebar__list-item"><a class="sidebar__link" href="#nav-elements">Nav Elements</a> </li><li class="sidebar__list-item"><a class="sidebar__link" href="#headers">Headers</a> </li><li class="sidebar__list-item"><a class="sidebar__link" href="#footers">Footers</a> </li><li class="sidebar__list-item"><a class="sidebar__link" href="#asides">Asides</a> </li><li class="sidebar__list-item"><a class="sidebar__link" href="#divs-for-layout">Divs for Layout</a> </li><li class="sidebar__list-item"><a class="sidebar__link" href="#dates-and-times">Dates and Times</a> </li><li class="sidebar__list-item"><a class="sidebar__link" href="#address">Address</a> </li><li class="sidebar__list-item"><a class="sidebar__link" href="#figures-and-captions">Figures and Captions</a> </li><li class="sidebar__list-item"><a class="sidebar__link" href="#css-legacy-considerations">Legacy Considerations</a> </li><li class="sidebar__list-item"><a class="sidebar__link" href="#summary">Summary</a> </li></ul></div></div></div>
-
-
-
-  
-  <footer>
-
-    
-    <div class="about">
-
-      <div class="about__wrapper">
-        <div class="about__header">
-          <div class="about__rule-before"></div>
-          <img class="about__logo" src="/img/interneting-is-hard-logo-97b225.svg" alt="Wi-fi signal with exclamation mark through it">
-          <div class="about__rule-after"></div>
-        </div>
-
-        <div class="about__content">
-          <div class="about__icons">
-            <a href="https://twitter.com/internetinghard" target="_blank"><img class="about__twitter" src="/img/twitter-icon-29cd78.png" alt="Twitter logo"></a>
-            <a href="https://www.facebook.com/Interneting-Is-Hard-120886695097813/" target="_blank"><img class="about__facebook" src="/img/facebook-icon-e6def5.png" alt="Facebook logo"></a>
-            <a class="js-obfuscated-email__mailto" href="mailto:contact@internetingishard.com"><img class="about__email" src="/img/email-icon-a4c505.png" alt="Envelope icon"></a>
-          </div>
-
-          <p class="about__description"><em>InternetingIsHard.com</em> is an
-          independent publisher of premium web development tutorials. All
-          content is authored and maintained by Oliver James. He loves hearing
-          from readers, so <a href="/contact/">come say hello</a>!</p>
-
-        </div>
-
-        <div class="about__mailing-list">
-          <div class="about__mailing-list-description">
-            More tutorials are coming. (Lots more.)<br>
-            Enter your email <span class="about__mailing-list-below">below</span><span class="about__mailing-list-above">above</span>, and we’ll let you
-            know when they get here.
-          </div>
-
-          <form class="about__mailing-list-form js-about__mailing-list-form" novalidate="">
-
-            <div class="slide-animation">
-              <div class="about__mailing-list-row js-about__mailing-list-row">
-                <label for="about__mailing-list-email" class="about__mailing-list-email-label">Email</label>
-                <input id="about__mailing-list-email" class="input-text input-text--small
-                              about__mailing-list-email js-about__mailing-list-email" type="email" placeholder="you@example.com">
-
-                <div class="cta-button about__mailing-list-button">
-                  <button class="cta-button__link cta-button__link--small
-                                 about__mailing-list-button-links                     js-about__mailing-list-button-link">Subscribe</button>
-                </div>
-              </div>
-            </div>
-            <div class="slide-animation slide-animation--hidden">
-              <div class="input-status about__mailing-list-status
-                          js-about__mailing-list-status">
-                <span class="input-status__title js-about__mailing-list-status-title">Error!</span>
-                <span class="js-about__mailing-list-status-text">Can’t sign up for a mailing
-                  list without an email address...</span>
-              </div>
-            </div>
-
-          </form>
-        </div>
-
-      </div>
-    </div>
-    <div class="footer">
-      <div class="footer__copyright">
-        <div class="footer__item">
-          <span class="footer__copyright-symbol">©</span> 2017
-          <a href="/">InternetingIsHard.com</a>
-        </div>
-      </div>
-      <div class="footer__links">
-        <div class="footer__item footer__item--auto">
-          <a href="/contact/">Contact</a>
-        </div>
-        <div class="footer__item">
-          <a href="/legal/licensing/">Licensing</a>
-        </div>
-        <div class="footer__item">
-          <a href="/legal/privacy/">Privacy</a>
-        </div>
-        <div class="footer__item">
-          <a href="/legal/terms-of-service/">Terms</a>
-        </div>
-      </div>
-    </div>
-  </footer>
 </div>
