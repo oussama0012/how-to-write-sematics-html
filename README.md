@@ -13,7 +13,7 @@ the underlying meaning of your content—not its appearance. We’ve already
   a web page. They’re called “sectioning elements”, and they look something
   like this:</p>
 
-<figure class="diagram"><div class="diagram__wrapper" style="max-width: 278px"><div class="diagram__padding" style="padding-bottom: 125.89928057553956%"><img class="diagram__image" alt="Diagram: <header>, <nav>, <article>, <aside>, <figure>, and <footer> elements in a typical web page" src="/html-and-css/semantic-html/html-sectioning-elements-00c3fd.png" width="278" height="350"></div></div></figure>
+<img src="src="/html-and-css/semantic-html/html-sectioning-elements-00c3fd.png">
 
 <p>Using these as an alternative to <code>&lt;div&gt;</code> elements is an
 important aspect of modern web development because it makes it easier for
@@ -22,6 +22,7 @@ parts of your website. It also helps you as a developer keep your site
 organized, which, in turn, makes it easier to maintain.</p>
 
 <figure class="diagram"><div class="diagram__wrapper" style="max-width: 467px"><div class="diagram__padding" style="padding-bottom: 79.01498929336188%"><img class="diagram__image" alt="Diagram: div soup (several gray <div> elements) compared to semantic markup (<header>, <article>, <figure>, and <footer> in different colors)" src="/html-and-css/semantic-html/semantic-html-ffab7c.png" width="467" height="369"></div></div></figure>
+<img src="src="/html-and-css/semantic-html/semantic-html-ffab7c.png">
 
 <p>We’re going back to straight HTML this chapter—no <a href="/html-and-css/css-box-model/">box model</a>, <a href="/html-and-css/flexbox/">flexbox</a>, or <a href="/html-and-css/advanced-positioning">positioning schemes</a>. However,
 that’s not to say you can’t apply all of the CSS rules from previous chapters
@@ -109,7 +110,8 @@ bottom. You should see the outline for our example, which currently has the
 following structure. It’s a little reminiscent of the research paper
 outlines you learned to make in elementary school.</p>
 
-<figure class="diagram"><div class="diagram__wrapper" style="max-width: 295px"><div class="diagram__padding" style="padding-bottom: 126.10169491525424%"><img class="diagram__image" alt="Outline of web page heading structure" src="/html-and-css/semantic-html/document-outline-heading-elements-576433.png" width="295" height="372"></div></div></figure>
+
+<img src="/html-and-css/semantic-html/document-outline-heading-elements-576433.png">
 
 <p>Each <code>&lt;h1&gt;</code> element creates a new section in the document
 outline, and any less prominent headings that follow it are considered
@@ -127,7 +129,8 @@ through the outliner tool again. Since the <code>&lt;h4&gt;</code> is still
 less than the parent <code>&lt;h2&gt;</code>, this shouldn’t have any
 affect on the document outline.</p>
 
-<figure class="diagram"><div class="diagram__wrapper" style="max-width: 600px"><div class="diagram__padding" style="padding-bottom: 55.00000000000001%"><img class="diagram__image" alt="Flow chart of rules for when headings create new sections in the document outline" src="/html-and-css/semantic-html/document-outline-section-creation-45ee48.png" width="600" height="330"></div></div></figure>
+
+<img src="/html-and-css/semantic-html/document-outline-section-creation-45ee48.png">
 
 <p>How’s this document outline stuff relate to semantic HTML? Well,
 headings are some of the most semantic things in a web page. They play a
@@ -149,7 +152,8 @@ and distributed in a completely different context. For instance, an app like <a 
 grab an <code>&lt;article&gt;</code> element from your site, display it in
 its own app, and have it make perfect sense to its readers.</p>
 
-<figure class="diagram"><div class="diagram__wrapper" style="max-width: 502px"><div class="diagram__padding" style="padding-bottom: 106.97211155378486%"><img class="diagram__image" alt="Diagram: <article> element plucked out of page and sent to Flipboard, search engines, and other websites" src="/html-and-css/semantic-html/html-article-element-82490e.png" width="502" height="537"></div></div></figure>
+
+<img src="/html-and-css/semantic-html/html-article-element-82490e.png">
 
 <p>In our example, we can use <code>&lt;article&gt;</code> to mark the main
 content of the page as a self-contained unit, like so:</p>
@@ -222,7 +226,7 @@ outside the context of the document. That is, an app like Flipboard
 wouldn’t try to pull out all the <code>&lt;section&gt;</code>’s of
 your page and present them as independent pieces of content.</p>
 
-<figure class="diagram"><div class="diagram__wrapper" style="max-width: 478px"><div class="diagram__padding" style="padding-bottom: 112.34309623430963%"><img class="diagram__image" alt="Diagram: <section> element unable to be plucked out of page" src="/html-and-css/semantic-html/html-section-element-92a4d1.png" width="478" height="537"></div></div></figure>
+<img src="/html-and-css/semantic-html/html-section-element-92a4d1.png">
 
 <p>Think of <code>&lt;section&gt;</code> as an <em>explicit</em> way to define
 the sections in a document outline. Why would we want this instead of letting
@@ -275,7 +279,8 @@ precedes it, so you might expect it to become part of the
 <strong>Footer</strong> section. But, that’s not the case: the document
 outline is still the exact same as before.</p>
 
-<figure class="diagram"><div class="diagram__wrapper" style="max-width: 600px"><div class="diagram__padding" style="padding-bottom: 61.33333333333333%"><img class="diagram__image" alt="Expected and actual outlines created by the HTML5 document outline scheme versus real-world web browsers" src="/html-and-css/semantic-html/sections-and-document-outline-614f12.png" width="600" height="368"></div></div></figure>
+<img src="/html-and-css/semantic-html/sections-and-document-outline-614f12.png">
+
 
 <p>By adding those <code>&lt;section&gt;</code> elements, we’re telling
 the document outline that it should be defined by the nesting structure of the
@@ -310,7 +315,8 @@ the outliner tool again:</p>
 with it, the document outline doesn’t know what to call it. This should
 generally be avoided when using <code>&lt;section&gt;</code> elements.</p>
 
-<figure class="diagram"><div class="diagram__wrapper" style="max-width: 323px"><div class="diagram__padding" style="padding-bottom: 132.19814241486068%"><img class="diagram__image" alt="Outline with an untitled section after adding a new <section> element" src="/html-and-css/semantic-html/untitled-section-in-document-outline-b511bc.png" width="323" height="427"></div></div></figure>
+
+<img src="/html-and-css/semantic-html/untitled-section-in-document-outline-b511bc.png">
 
 <p>As defined by the HTML5 specification, <code>&lt;section&gt;</code> is a
 pretty generic element. That, plus the fact that browsers and screen readers
@@ -352,7 +358,8 @@ discover other pages. As we’ll see in <a href="#asides">Asides</a>,
 it’s possible to include multiple <code>&lt;nav&gt;</code> elements on a
 single page if you have different sets of related links.</p>
 
-<figure class="diagram"><div class="diagram__wrapper" style="max-width: 282px"><div class="diagram__padding" style="padding-bottom: 130.85106382978725%"><img class="diagram__image" alt="Diagram: <nav> elements grouping navigation links in the header, sidebar, and footer of a web page" src="/html-and-css/semantic-html/html-nav-element-d1e716.png" width="282" height="369"></div></div></figure>
+
+<img src="/html-and-css/semantic-html/html-nav-element-d1e716.png">
 
 </div></div>
 
@@ -368,7 +375,8 @@ introductory content for a section, article, or entire web page.
 “Introductory content” can be anything from your company’s
 logo to navigational aids or author information.</p>
 
-<figure class="diagram"><div class="diagram__wrapper" style="max-width: 285px"><div class="diagram__padding" style="padding-bottom: 129.82456140350877%"><img class="diagram__image" alt="Diagram: separate <header> elements for whole web page versus just the <article> element" src="/html-and-css/semantic-html/html-header-element-7b4e01.png" width="285" height="370"></div></div></figure>
+
+<img src="/html-and-css/semantic-html/html-header-element-7b4e01.png">
 
 <p>It’s a best practice to wrap a website’s name/logo
 and main navigation in a <code>&lt;header&gt;</code>, so let’s go ahead
@@ -424,7 +432,8 @@ generally come at end of an article/website opposed to the beginning. Common
 use cases include things like copyright notices, footer navigation, and author
 bios at the end of blog posts.</p>
 
-<figure class="diagram"><div class="diagram__wrapper" style="max-width: 278px"><div class="diagram__padding" style="padding-bottom: 128.77697841726618%"><img class="diagram__image" alt="Diagram: <footer> element for the whole web page and for the <article> element" src="/html-and-css/semantic-html/html-footer-element-0c927a.png" width="278" height="358"></div></div></figure>
+
+<img src="/html-and-css/semantic-html/html-footer-element-0c927a.png">
 
 <p>Footers behave the same as <code>&lt;header&gt;</code> in that they’re
 associated with the nearest sectioning element. So, we can use it for our
@@ -475,7 +484,7 @@ a sponsored blog post might contain an advertisement about the sponsoring
 company; however, we probably don’t want to make it part of the article
 text. This is what the <code>&lt;aside&gt;</code> element is for.</p>
 
-<figure class="diagram"><div class="diagram__wrapper" style="max-width: 280px"><div class="diagram__padding" style="padding-bottom: 129.2857142857143%"><img class="diagram__image" alt="Diagram: <aside> element for the site-wide sidebar and inside an <article> element" src="/html-and-css/semantic-html/html-aside-element-ce120b.png" width="280" height="362"></div></div></figure>
+<img src="/html-and-css/semantic-html/html-aside-element-ce120b.png">
 
 <p>Let’s add a fake advertisement to our <code>article.html</code> file,
 right underneath the article’s header:</p>
@@ -605,7 +614,8 @@ to automatically link it to users’ calendars and helps search engines
 clearly identify specific dates. A simple Google search will show you the
 effect of including a <code>&lt;time&gt;</code> element on your page:</p>
 
-<figure class="diagram"><div class="diagram__wrapper" style="max-width: 414px"><div class="diagram__padding" style="padding-bottom: 32.608695652173914%"><img class="diagram__image" alt="Screenshot: Google search results with publish date highlighted" src="/html-and-css/semantic-html/time-element-in-google-search-results-5bba38.png" width="414" height="135"></div></div></figure>
+
+<img src="/html-and-css/semantic-html/time-element-in-google-search-results-5bba38.png">
 
 <p>Let’s make the publish date of our article unambiguous by wrapping it
 in <code>&lt;time&gt;</code> tags:</p>
@@ -625,7 +635,7 @@ period to smallest: year, month, then date. Note that even though the year
 isn’t included in the human-readable text, this tells search engines that
 our article was published in 2017.</p>
 
-<figure class="diagram"><div class="diagram__wrapper" style="max-width: 471px"><div class="diagram__padding" style="padding-bottom: 38.21656050955414%"><img class="diagram__image" alt="Diagram: year, month, date, time, and timezone format of the <time> element" src="/html-and-css/semantic-html/datetime-format-d0c825.png" width="471" height="180"></div></div></figure>
+<img src="/html-and-css/semantic-html/datetime-format-d0c825.png">
 
 <p>It’s possible to include times and time zones inside of
 <code>datetime</code>, too. If we wanted to add a 3:00pm PST time to our
@@ -746,7 +756,8 @@ page to humans. By marking it up with <code>&lt;header&gt;</code>,
 sectioning elements, we’re able to represent those visual styles to machines,
 as well.</p>
 
-<figure class="diagram"><div class="diagram__wrapper" style="max-width: 467px"><div class="diagram__padding" style="padding-bottom: 79.01498929336188%"><img class="diagram__image" alt="Diagram: ambiguous structure (gray <div> elements) versus identifiable sections (<header>, <article>, <figure>, and <footer>)" src="/html-and-css/semantic-html/semantic-html-ffab7c.png" width="467" height="369"></div></div></figure>
+
+<img src="/html-and-css/semantic-html/semantic-html-ffab7c.png">
 
 <p>To understand why this is important, we really have to empathize with the
 machines reading our content. Before semantic HTML was a thing, developers used
@@ -790,12 +801,5 @@ technical SEO, so we’ll leave you to explore it on your own. In the next
 chapter, we’ll switch gears again and introduce another critical component of
 websites (especially e-commerce ones): forms.</p>
 
-<div class="next-chapter">
-  <a href="/html-and-css/forms/">Next Chapter &gt;</a>
-</div>
 
-</div></div>
-
-
-<div class="chapter-sidebar"><div class="sidebar js-sidebar"><div class="sidebar__wrapper"><ul class="sidebar__list"><li class="sidebar__list-item"><a class="sidebar__link" href="#setup">Setup</a> </li><li class="sidebar__list-item"><a class="sidebar__link" href="#the-document-outline">The Document Outline</a> </li><li class="sidebar__list-item"><a class="sidebar__link" href="#articles">Articles</a> </li><li class="sidebar__list-item"><a class="sidebar__link" href="#sections">Sections</a> </li><li class="sidebar__list-item"><a class="sidebar__link" href="#nav-elements">Nav Elements</a> </li><li class="sidebar__list-item"><a class="sidebar__link" href="#headers">Headers</a> </li><li class="sidebar__list-item"><a class="sidebar__link" href="#footers">Footers</a> </li><li class="sidebar__list-item"><a class="sidebar__link" href="#asides">Asides</a> </li><li class="sidebar__list-item"><a class="sidebar__link" href="#divs-for-layout">Divs for Layout</a> </li><li class="sidebar__list-item"><a class="sidebar__link" href="#dates-and-times">Dates and Times</a> </li><li class="sidebar__list-item"><a class="sidebar__link" href="#address">Address</a> </li><li class="sidebar__list-item"><a class="sidebar__link" href="#figures-and-captions">Figures and Captions</a> </li><li class="sidebar__list-item"><a class="sidebar__link" href="#css-legacy-considerations">Legacy Considerations</a> </li><li class="sidebar__list-item"><a class="sidebar__link" href="#summary">Summary</a> </li></ul></div></div></div>
 </div>
