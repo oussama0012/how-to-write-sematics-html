@@ -13,7 +13,7 @@ We’re going back to straight HTML this chapter—no box model, flexbox, or pos
     
 Our example for this chapter will be a simple unstyled HTML document. Create a new Atom project called semantic-html with a new file in it called article.html. Add the following:
 
-
+<code>
 &lt!DOCTYPE html&gt
 &lthtml lang='en'&gt
  &lthead&gt
@@ -30,6 +30,6 @@ Our example for this chapter will be a simple unstyled HTML document. Create a n
     &lt/ul&gt
   &lt/body&gt
 &lt/html&gt
-   
+</code>  
     
 That h1 and ul are presumably the top-level banner for our website—not the main content of the web page. We’ve never had to make this distinction before, but that’s what this whole chapter is about.
