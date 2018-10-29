@@ -15,6 +15,7 @@ Our example for this chapter will be a simple unstyled HTML document. Create a n
 
 
 <!-->
+
 <!DOCTYPE html>
 <html lang='en'>
   <head>
@@ -22,7 +23,6 @@ Our example for this chapter will be a simple unstyled HTML document. Create a n
     <title>Semantic HTML</title>
   </head>
   <body>
-
     <h1>Interneting Is Easy!</h1>
     <ul>
       <li><a href='#'>Home</a></li>
@@ -30,7 +30,6 @@ Our example for this chapter will be a simple unstyled HTML document. Create a n
       <li><a href='#'>Blog</a></li>
       <li><a href='#'>Sign Up</a></li>
     </ul>
-
   </body>
 </html>
     
