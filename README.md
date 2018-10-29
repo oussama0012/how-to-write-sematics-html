@@ -21,7 +21,7 @@ search engines, screen readers, and other machines to identify the different
 parts of your website. It also helps you as a developer keep your site
 organized, which, in turn, makes it easier to maintain.</p>
 
-<figure class="diagram"><div class="diagram__wrapper" style="max-width: 467px"><div class="diagram__padding" style="padding-bottom: 79.01498929336188%"><img class="diagram__image" alt="Diagram: div soup (several gray <div> elements) compared to semantic markup (<header>, <article>, <figure>, and <footer> in different colors)" src="/html-and-css/semantic-html/semantic-html-ffab7c.png" width="467" height="369"></div></div></figure>
+
 <img src="https://internetingishard.com/html-and-css/semantic-html/semantic-html-ffab7c.png">
 
 <p>We’re going back to straight HTML this chapter—no <a href="/html-and-css/css-box-model/">box model</a>, <a href="/html-and-css/flexbox/">flexbox</a>, or <a href="/html-and-css/advanced-positioning">positioning schemes</a>. However,
