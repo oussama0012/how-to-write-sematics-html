@@ -14,22 +14,22 @@ We’re going back to straight HTML this chapter—no box model, flexbox, or pos
 Our example for this chapter will be a simple unstyled HTML document. Create a new Atom project called semantic-html with a new file in it called article.html. Add the following:
 
 <code>
-&lt!DOCTYPE html&gt
-&lthtml lang='en'&gt
- &lthead&gt
-    &ltmeta charset='UTF-8'/&gt
-    &lttitle&gtSemantic HTML&lt/title&gt
- &lt/head&gt
- &ltbody&gt
-    &lth1&gtInterneting Is Easy!&lt/h1&gt
-    &ltul&gt
-      &ltli&gt&lta href='#'&gtHome&lt/a&gt&lt/li&gt
-      &ltli&gt&lta href='#'&gtAbout&lt/a&gt&lt/li&gt
-      &ltli&gt&lta href='#'&gtBlog&lt/a&gt&lt/li&gt
-      &ltli&gt&lta href='#'&gtSign Up&lt/a&gt&lt/li&gt
-    &lt/ul&gt
-  &lt/body&gt
-&lt/html&gt
+&lt!DOCTYPE html&gt<br>
+&lthtml lang='en'&gt<br>
+ &lthead&gt<br>
+    &ltmeta charset='UTF-8'/&gt<br>
+    &lttitle&gtSemantic HTML&lt/title&gt<br>
+ &lt/head&gt<br>
+ &ltbody&gt<br>
+    &lth1&gtInterneting Is Easy!&lt/h1&gt<br>
+    &ltul&gt<br>
+      &ltli&gt&lta href='#'&gtHome&lt/a&gt&lt/li&gt<br>
+      &ltli&gt&lta href='#'&gtAbout&lt/a&gt&lt/li&gt<br>
+      &ltli&gt&lta href='#'&gtBlog&lt/a&gt&lt/li&gt<br>
+      &ltli&gt&lta href='#'&gtSign Up&lt/a&gt&lt/li&gt<br>
+    &lt/ul&gt<br>
+  &lt/body&gt<br>
+&lt/html&gt<br>
 </code>  
     
 That h1 and ul are presumably the top-level banner for our website—not the main content of the web page. We’ve never had to make this distinction before, but that’s what this whole chapter is about.
