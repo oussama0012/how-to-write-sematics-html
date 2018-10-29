@@ -12,7 +12,8 @@ We’re going back to straight HTML this chapter—no box model, flexbox, or pos
    <hr>
     
 Our example for this chapter will be a simple unstyled HTML document. Create a new Atom project called semantic-html with a new file in it called article.html. Add the following:
-<div>
+
+<textarea>
 <!DOCTYPE html>
 <html lang='en'>
   <head>
@@ -29,5 +30,6 @@ Our example for this chapter will be a simple unstyled HTML document. Create a n
     </ul>
   </body>
 </html>
-    </div>
+    </textarea>
+    
 That h1 and ul are presumably the top-level banner for our website—not the main content of the web page. We’ve never had to make this distinction before, but that’s what this whole chapter is about.
