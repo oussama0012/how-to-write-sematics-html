@@ -13,23 +13,23 @@ We’re going back to straight HTML this chapter—no box model, flexbox, or pos
     
 Our example for this chapter will be a simple unstyled HTML document. Create a new Atom project called semantic-html with a new file in it called article.html. Add the following:
 
-<textarea>
-<!DOCTYPE html>
-<html lang='en'>
-  <head>
-    <meta charset='UTF-8'/>
-    <title>Semantic HTML</title>
-  </head>
-  <body>
-    <h1>Interneting Is Easy!</h1>
-    <ul>
-      <li><a href='#'>Home</a></li>
-      <li><a href='#'>About</a></li>
-      <li><a href='#'>Blog</a></li>
-      <li><a href='#'>Sign Up</a></li>
-    </ul>
-  </body>
-</html>
-    </textarea>
+
+&lt!DOCTYPE html&gt
+&lthtml lang='en'&gt
+ &lthead&gt
+    &ltmeta charset='UTF-8'/&gt
+    &lttitle&gtSemantic HTML&lt/title&gt
+ &lt/head&gt
+ &ltbody&gt
+    &lth1&gtInterneting Is Easy!&lt/h1&gt
+    &ltul&gt
+      &ltli&gt&lta href='#'&gtHome&lt/a&gt&lt/li&gt
+      &ltli&gt&lta href='#'&gtAbout&lt/a&gt&lt/li&gt
+      &ltli&gt&lta href='#'&gtBlog&lt/a&gt&lt/li&gt
+      &ltli&gt&lta href='#'&gtSign Up&lt/a&gt&lt/li&gt
+    &lt/ul&gt
+  &lt/body&gt
+&lt/html&gt
+   
     
 That h1 and ul are presumably the top-level banner for our website—not the main content of the web page. We’ve never had to make this distinction before, but that’s what this whole chapter is about.
