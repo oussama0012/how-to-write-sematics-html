@@ -1,9 +1,8 @@
 <div class="page">
   
 
-<header class="page-header"><div class="page-header__wrapper"><div class="heading"><h1 class="heading__title">Semantic HTML</h1><div class="heading__parenthesis-rule"><div class="heading__rule-before"></div><div class="heading__parenthesis">Nº 12. of <a href="/html-and-css/">HTML &amp; CSS Is Hard</a></div><div class="heading__rule-after"></div></div><div class="heading__subtitle">A friendly tutorial for developing meaningful web pages</div></div></div></header>
 
-<div class="content"><div class="content__wrapper content__wrapper--first">
+
 
 <p>“Semantic HTML” refers to the idea that all your HTML markup should convey
 the underlying meaning of your content—not its appearance. We’ve already
