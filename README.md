@@ -13,7 +13,7 @@ the underlying meaning of your content—not its appearance. We’ve already
   a web page. They’re called “sectioning elements”, and they look something
   like this:</p>
 
-<img src="/html-and-css/semantic-html/html-sectioning-elements-00c3fd.png">
+<img src="https://internetingishard.com/html-and-css/semantic-html/html-sectioning-elements-00c3fd.png">
 
 <p>Using these as an alternative to <code>&lt;div&gt;</code> elements is an
 important aspect of modern web development because it makes it easier for
@@ -22,7 +22,7 @@ parts of your website. It also helps you as a developer keep your site
 organized, which, in turn, makes it easier to maintain.</p>
 
 <figure class="diagram"><div class="diagram__wrapper" style="max-width: 467px"><div class="diagram__padding" style="padding-bottom: 79.01498929336188%"><img class="diagram__image" alt="Diagram: div soup (several gray <div> elements) compared to semantic markup (<header>, <article>, <figure>, and <footer> in different colors)" src="/html-and-css/semantic-html/semantic-html-ffab7c.png" width="467" height="369"></div></div></figure>
-<img src="/html-and-css/semantic-html/semantic-html-ffab7c.png">
+<img src="https://internetingishard.com/html-and-css/semantic-html/semantic-html-ffab7c.png">
 
 <p>We’re going back to straight HTML this chapter—no <a href="/html-and-css/css-box-model/">box model</a>, <a href="/html-and-css/flexbox/">flexbox</a>, or <a href="/html-and-css/advanced-positioning">positioning schemes</a>. However,
 that’s not to say you can’t apply all of the CSS rules from previous chapters
@@ -111,7 +111,7 @@ following structure. It’s a little reminiscent of the research paper
 outlines you learned to make in elementary school.</p>
 
 
-<img src="/html-and-css/semantic-html/document-outline-heading-elements-576433.png">
+<img src="https://internetingishard.com/html-and-css/semantic-html/document-outline-heading-elements-576433.png">
 
 <p>Each <code>&lt;h1&gt;</code> element creates a new section in the document
 outline, and any less prominent headings that follow it are considered
@@ -130,7 +130,7 @@ less than the parent <code>&lt;h2&gt;</code>, this shouldn’t have any
 affect on the document outline.</p>
 
 
-<img src="/html-and-css/semantic-html/document-outline-section-creation-45ee48.png">
+<img src="https://internetingishard.com/html-and-css/semantic-html/document-outline-section-creation-45ee48.png">
 
 <p>How’s this document outline stuff relate to semantic HTML? Well,
 headings are some of the most semantic things in a web page. They play a
@@ -153,7 +153,7 @@ grab an <code>&lt;article&gt;</code> element from your site, display it in
 its own app, and have it make perfect sense to its readers.</p>
 
 
-<img src="/html-and-css/semantic-html/html-article-element-82490e.png">
+<img src="https://internetingishard.com/html-and-css/semantic-html/html-article-element-82490e.png">
 
 <p>In our example, we can use <code>&lt;article&gt;</code> to mark the main
 content of the page as a self-contained unit, like so:</p>
@@ -226,7 +226,7 @@ outside the context of the document. That is, an app like Flipboard
 wouldn’t try to pull out all the <code>&lt;section&gt;</code>’s of
 your page and present them as independent pieces of content.</p>
 
-<img src="/html-and-css/semantic-html/html-section-element-92a4d1.png">
+<img src="https://internetingishard.com/html-and-css/semantic-html/html-section-element-92a4d1.png">
 
 <p>Think of <code>&lt;section&gt;</code> as an <em>explicit</em> way to define
 the sections in a document outline. Why would we want this instead of letting
@@ -279,7 +279,7 @@ precedes it, so you might expect it to become part of the
 <strong>Footer</strong> section. But, that’s not the case: the document
 outline is still the exact same as before.</p>
 
-<img src="/html-and-css/semantic-html/sections-and-document-outline-614f12.png">
+<img src="https://internetingishard.com/html-and-css/semantic-html/sections-and-document-outline-614f12.png">
 
 
 <p>By adding those <code>&lt;section&gt;</code> elements, we’re telling
@@ -316,7 +316,7 @@ with it, the document outline doesn’t know what to call it. This should
 generally be avoided when using <code>&lt;section&gt;</code> elements.</p>
 
 
-<img src="/html-and-css/semantic-html/untitled-section-in-document-outline-b511bc.png">
+<img src="https://internetingishard.com/html-and-css/semantic-html/untitled-section-in-document-outline-b511bc.png">
 
 <p>As defined by the HTML5 specification, <code>&lt;section&gt;</code> is a
 pretty generic element. That, plus the fact that browsers and screen readers
@@ -359,7 +359,7 @@ it’s possible to include multiple <code>&lt;nav&gt;</code> elements on a
 single page if you have different sets of related links.</p>
 
 
-<img src="/html-and-css/semantic-html/html-nav-element-d1e716.png">
+<img src="https://internetingishard.com/html-and-css/semantic-html/html-nav-element-d1e716.png">
 
 </div></div>
 
@@ -376,7 +376,7 @@ introductory content for a section, article, or entire web page.
 logo to navigational aids or author information.</p>
 
 
-<img src="/html-and-css/semantic-html/html-header-element-7b4e01.png">
+<img src="https://internetingishard.com/html-and-css/semantic-html/html-header-element-7b4e01.png">
 
 <p>It’s a best practice to wrap a website’s name/logo
 and main navigation in a <code>&lt;header&gt;</code>, so let’s go ahead
@@ -433,7 +433,7 @@ use cases include things like copyright notices, footer navigation, and author
 bios at the end of blog posts.</p>
 
 
-<img src="/html-and-css/semantic-html/html-footer-element-0c927a.png">
+<img src="https://internetingishard.com/html-and-css/semantic-html/html-footer-element-0c927a.png">
 
 <p>Footers behave the same as <code>&lt;header&gt;</code> in that they’re
 associated with the nearest sectioning element. So, we can use it for our
@@ -484,7 +484,7 @@ a sponsored blog post might contain an advertisement about the sponsoring
 company; however, we probably don’t want to make it part of the article
 text. This is what the <code>&lt;aside&gt;</code> element is for.</p>
 
-<img src="/html-and-css/semantic-html/html-aside-element-ce120b.png">
+<img src="https://internetingishard.com/html-and-css/semantic-html/html-aside-element-ce120b.png">
 
 <p>Let’s add a fake advertisement to our <code>article.html</code> file,
 right underneath the article’s header:</p>
@@ -615,7 +615,7 @@ clearly identify specific dates. A simple Google search will show you the
 effect of including a <code>&lt;time&gt;</code> element on your page:</p>
 
 
-<img src="/html-and-css/semantic-html/time-element-in-google-search-results-5bba38.png">
+<img src="https://internetingishard.com/html-and-css/semantic-html/time-element-in-google-search-results-5bba38.png">
 
 <p>Let’s make the publish date of our article unambiguous by wrapping it
 in <code>&lt;time&gt;</code> tags:</p>
@@ -635,7 +635,7 @@ period to smallest: year, month, then date. Note that even though the year
 isn’t included in the human-readable text, this tells search engines that
 our article was published in 2017.</p>
 
-<img src="/html-and-css/semantic-html/datetime-format-d0c825.png">
+<img src="https://internetingishard.com/html-and-css/semantic-html/datetime-format-d0c825.png">
 
 <p>It’s possible to include times and time zones inside of
 <code>datetime</code>, too. If we wanted to add a 3:00pm PST time to our
@@ -757,7 +757,7 @@ sectioning elements, we’re able to represent those visual styles to machines,
 as well.</p>
 
 
-<img src="/html-and-css/semantic-html/semantic-html-ffab7c.png">
+<img src="https://internetingishard.com/html-and-css/semantic-html/semantic-html-ffab7c.png">
 
 <p>To understand why this is important, we really have to empathize with the
 machines reading our content. Before semantic HTML was a thing, developers used
