@@ -1,8 +1,9 @@
 # how-to-write-sematics-html
-“Semantic HTML” refers to the idea that all your HTML markup should convey the underlying meaning of your content—not its appearance. We’ve already been writing semantic HTML (e.g., using <strong> instead of <b>), but there’s a whole set of elements designed for the sole purpose of adding more meaning to the overall layout of a web page. They’re called “sectioning elements”, and they look something like this:
+“Semantic HTML” refers to the idea that all your HTML markup should convey the underlying meaning of your content—not its appearance. We’ve already been writing semantic HTML (e.g., using strong instead of b), but there’s a whole set of elements designed for the sole purpose of adding more meaning to the overall layout of a web page. They’re called “sectioning elements”, and they look something like this:
     <img src="https://internetingishard.com/html-and-css/semantic-html/html-sectioning-elements-00c3fd.png" alt="sematics-html">
-Using these as an alternative to <div> elements is an important aspect of modern web development because it makes it easier for search engines, screen readers, and other machines to identify the different parts of your website. It also helps you as a developer keep your site organized, which, in turn, makes it easier to maintain.
+Using these as an alternative to div elements is an important aspect of modern web development because it makes it easier for search engines, screen readers, and other machines to identify the different parts of your website. It also helps you as a developer keep your site organized, which, in turn, makes it easier to maintain.
     <img src="https://internetingishard.com/html-and-css/semantic-html/semantic-html-ffab7c.png" alt="sematics-html">
+    
 We’re going back to straight HTML this chapter—no box model, flexbox, or positioning schemes. However, that’s not to say you can’t apply all of the CSS rules from previous chapters to these new elements. Think of sectioning elements as div’s, but with meaning.
     
     <hr>
