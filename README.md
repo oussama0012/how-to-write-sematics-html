@@ -13,7 +13,7 @@ the underlying meaning of your content—not its appearance. We’ve already
   a web page. They’re called “sectioning elements”, and they look something
   like this:</p>
 
-<img src="src="/html-and-css/semantic-html/html-sectioning-elements-00c3fd.png">
+<img src="/html-and-css/semantic-html/html-sectioning-elements-00c3fd.png">
 
 <p>Using these as an alternative to <code>&lt;div&gt;</code> elements is an
 important aspect of modern web development because it makes it easier for
@@ -22,7 +22,7 @@ parts of your website. It also helps you as a developer keep your site
 organized, which, in turn, makes it easier to maintain.</p>
 
 <figure class="diagram"><div class="diagram__wrapper" style="max-width: 467px"><div class="diagram__padding" style="padding-bottom: 79.01498929336188%"><img class="diagram__image" alt="Diagram: div soup (several gray <div> elements) compared to semantic markup (<header>, <article>, <figure>, and <footer> in different colors)" src="/html-and-css/semantic-html/semantic-html-ffab7c.png" width="467" height="369"></div></div></figure>
-<img src="src="/html-and-css/semantic-html/semantic-html-ffab7c.png">
+<img src="/html-and-css/semantic-html/semantic-html-ffab7c.png">
 
 <p>We’re going back to straight HTML this chapter—no <a href="/html-and-css/css-box-model/">box model</a>, <a href="/html-and-css/flexbox/">flexbox</a>, or <a href="/html-and-css/advanced-positioning">positioning schemes</a>. However,
 that’s not to say you can’t apply all of the CSS rules from previous chapters
