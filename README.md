@@ -13,24 +13,7 @@ We’re going back to straight HTML this chapter—no box model, flexbox, or pos
     
 Our example for this chapter will be a simple unstyled HTML document. Create a new Atom project called semantic-html with a new file in it called article.html. Add the following:
 
-<code>
-&lt!DOCTYPE html&gt<br>
-&lthtml lang='en'&gt<br>
- &lthead&gt<br>
-    &ltmeta charset='UTF-8'/&gt<br>
-    &lttitle&gtSemantic HTML&lt/title&gt<br>
- &lt/head&gt<br>
- &ltbody&gt<br>
-    &lth1&gtInterneting Is Easy!&lt/h1&gt<br>
-    &ltul&gt<br>
-      &ltli&gt&lta href='#'&gtHome&lt/a&gt&lt/li&gt<br>
-      &ltli&gt&lta href='#'&gtAbout&lt/a&gt&lt/li&gt<br>
-      &ltli&gt&lta href='#'&gtBlog&lt/a&gt&lt/li&gt<br>
-      &ltli&gt&lta href='#'&gtSign Up&lt/a&gt&lt/li&gt<br>
-    &lt/ul&gt<br>
-  &lt/body&gt<br>
-&lt/html&gt<br>
-</code>  
+
 <!-->
 <!DOCTYPE html>
 <html lang='en'>
